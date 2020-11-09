@@ -6,5 +6,5 @@ Project ASP NET Core 3.1
  <h3>9/11/2020 :</h3>
 <p>+ Update những nội dung còn thiếu</p>
 <p>+ Thiết kế Database vs model</p>
-<p>10/11/2020 :</p>
+<h3>10/11/2020 :</h3>
 <p>+ Thiết kế trang quảng trị Admin</p>
