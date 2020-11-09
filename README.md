@@ -2,7 +2,7 @@
 Project ASP NET Core 3.1
 # Project Quản lí Cafe
 <p><b>Project Quản lí Cafe</b> là một trang web Bán Coffe online. Được xây dựng trên nền tảng Asp.NetCore3.1</p>
-# Tiến Độ
+<h2>Tiến Độ</h2>
 <b>.</b>9/11/2020 :
 <p>+ Update những nội dung còn thiếu</p>
 <p>+ Thiết kế Database vs model</p>
