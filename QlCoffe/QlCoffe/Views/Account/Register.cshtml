@@ -1,0 +1,57 @@
+﻿
+@model QlCoffe.ViewsModels.RegisterViewModel
+
+
+    <form method="post" asp-controller="Account" asp-action="Register">
+
+        <div class="border">
+            <div class="container">
+                <div class="form-group row">
+                    <h2 class="text-info">Dang Ki</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label asp-for="UserName"></label>
+                            </div>
+                            <div class="col-8">
+                                <input asp-for="UserName" class="form-control" />
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label asp-for="PassWord"></label>
+                            </div>
+                            <div class="col-8">
+                                <input asp-for="PassWord" class="form-control" />
+                                <span asp-validation-for="PassWord" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label asp-for="CofimPassWord"></label>
+                            </div>
+                            <div class="col-8">
+                                <input asp-for="CofimPassWord" class="form-control" />
+                                <span asp-validation-for="CofimPassWord" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-auto">
+                                <button type="submit"  class="btn btn-info">Register </button>
+                            </div>
+                            <div class="col-auto">
+                                <a asp-action="" class="btn btn-success">Back</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</form>

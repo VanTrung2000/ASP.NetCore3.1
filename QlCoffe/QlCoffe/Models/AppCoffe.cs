@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace QlCoffe.Models
 {
-    public class AppCoffe : DbContext
+    public class AppCoffe : IdentityDbContext
     {
         public DbSet<Coffe> coffes { set; get; }
         public DbSet<User> users { set; get; }

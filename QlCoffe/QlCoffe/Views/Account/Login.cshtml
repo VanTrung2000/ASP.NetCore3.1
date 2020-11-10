@@ -1,0 +1,47 @@
+﻿@model QlCoffe.ViewsModels.LoginViewModel
+
+
+<form method="post" asp-controller="Account" asp-action="Login">
+
+    <div class="border">
+        <div class="container">
+            <div class="form-group row">
+                <h2 class="text-info">Dang Ki</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-8">
+                    <div class="row form-group">
+                        <div class="col-4">
+                            <label asp-for="Username"></label>
+                        </div>
+                        <div class="col-8">
+                            <input asp-for="Username" class="form-control" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-4">
+                            <label asp-for="Password"></label>
+                        </div>
+                        <div class="col-8">
+                            <input asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-info">Login </button>
+                        </div>
+                        <div class="col-auto">
+                            <a asp-action="" class="btn btn-success">Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>
