@@ -9,4 +9,4 @@ Quảng Lí Quán Cafe
 <p>+ Update những nội dung còn thiếu</p>
 <p>+ Thiết kế Database vs model</p>
 <h3>10/11/2020 :</h3>
-<p>+ Thiết kế trang quảng trị Admin</p>
+
