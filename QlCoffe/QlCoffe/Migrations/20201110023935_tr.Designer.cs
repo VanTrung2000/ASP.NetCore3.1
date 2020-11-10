@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using QlCoffe.Models;
 
 namespace QlCoffe.Migrations
 {
     [DbContext(typeof(AppCoffe))]
-    partial class AppCoffeModelSnapshot : ModelSnapshot
+    [Migration("20201110023935_tr")]
+    partial class tr
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
